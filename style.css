@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    /* box-sizing: border-box; */
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* box1 */
+.navlogo{
+    height: 50px;
+    width: 130px;
+}
+.amazonlogoimage{
+    height: 50px;
+    width: 130px;
+    background-size: cover;
+}
+
+/* box2 */
+.nav_address{
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+}
+.add_first{
+    text-align: end;
+    padding-top: 3px;
+    font-size: 0.8rem;
+    color: rgb(220, 213, 213);
+}
+.add_second{
+    padding-top: 2px;
+    padding-right: 20px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between
+}
+
+/* box3 */
+.nav_search{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 950px;
+    border: none;
+}
+.search_select{
+    height: 100%;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 0.8rem;
+}
+.search_input{
+    height: 95%;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.search_icon{
+    display: flex;
+    height: 100%;
+    width: 50px;
+    background-color: #f8b448;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+}
+.search_select:hover{
+    background-color: #e0d8d8;
+}
+.search_icon:hover{
+    background-color: #f8a520
+}
+
+/* box4*/
+.nav_signin{
+    height: 40px;
+    width: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+}
+.para1{
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+.para2{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* box5*/
+.nav_return{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+}
+/* box5 */
+.nav_cart{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 5px;
+}
+#cart_logo{
+    font-size: 2rem;
+    padding-bottom: 3px;
+}
+.cart_text{
+    font-size: 1rem;
+    font-weight: 600px;
+    padding-bottom: 3px;
+}
+
+/* menubar */
+.menubar{
+    height: 40px;
+    background-color: #172d2d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.menu_all{
+    margin-left: 25px;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.menu_ops{
+    height: 30px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu_item{
+    display: flex;
+    align-items: center;
+    height: 3px;
+    padding: 0px 10px 15px;
+    font-size: 0.77rem;
+    padding-top: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* hero section */
+.hero_section{
+    height: 300px;
+    background-image: url(Assets/HeroImage.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.hero_text{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.hero_text a{
+    color: #007185;
+}
+
+/* Shopping Section */
+.shopping_section{
+    height: 800px;
+    background-color:rgb(191, 220, 219);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    height: 370px;
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card h3{
+    width: 90%;
+    text-align: start;
+}
+.card_image{
+    height: 300px;
+    width: 90%;
+    margin: 10px;
+    background-size: cover;
+}
+.card p{
+    font-size: 0.8rem;
+    color: rgb(33, 99, 136);
+    width: 90%;
+    text-align: start;
+}
+.card2_image{
+    height: 300px;
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card2{
+    height: 45%;
+    width: 45%;
+}
+.card1_image{
+    background-image: url(Assets/Kids.jpg);
+}
+.card3_image{
+    background-image: url(Assets/RefreshFood.jpg);
+}
+.card4_image{
+    background-image: url(Assets/RefreshDuo.jpg);
+}
+.card5_image{
+    background-image: url(Assets/HomeDecoration.jpg);
+}
+.card6_image{
+    background-image: url(Assets/Kitchen.jpg);
+}
+.card8_image{
+    background-image: url(Assets/TopDeal.jpg);
+}
+.card21{
+    background-image: url(Assets/Fashion1.jpg);
+}
+.card22{
+    background-image: url(Assets/Fashion2.jpg);
+}
+.card23{
+    background-image: url(Assets/Fashion3.jpg);
+}
+.card24{
+    background-image: url(Assets/Fashion4.jpg);
+}
+.card71{
+    background-image: url(Assets/KidToys.jpg);
+}
+.card72{
+    background-image: url(Assets/KidToys2.jpg);
+}
+.card73{
+    background-image: url(Assets/KidToys3.jpg);
+}
+.card74{
+    background-image: url(Assets/KidToys4.jpg);
+}
+
+/* footer */
+.footer_section{
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+.footer_person{
+    margin: 30px 0px 10px 0px;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.footer_para1{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.footer_para2{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.footer_para2 a{
+    color: #007185;
+}
+.footer_person button{
+    margin: 0px 35px;
+    height: 30px;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(244, 177, 52);
+}
+.footer_back{
+    height: 40px;
+    width: 100%;
+    font: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e3954;
+}
